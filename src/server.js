@@ -7,7 +7,7 @@ const path = require("path");
 const app = express();
 
 // conectando ao banco de dados
-mongoose.connect('mongodb+srv://marquissantos:melhorsantos123@calendario-2m5ie.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://marquissantos:melhorsantos123@projeto-sjmrg.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
